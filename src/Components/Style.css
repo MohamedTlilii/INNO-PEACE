@@ -1,3 +1,7 @@
-h1 {
-  color: red;
+.NavbarFromBootsTrap {
+  border: 2px solid red !important;
+  /* margin-top: 30px; */
+}
+.aaaa {
+  border: 12px solid rgb(251, 255, 0) !important;
 }

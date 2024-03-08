@@ -1,9 +1,9 @@
 import "./App.css";
-import Navbar from "./Components/Navbar";
+import NavbarFromBootsTrap from "./Components/NavbarFromBootsTrap";
 
 function App() {
   return <div>
-    <Navbar/>
+    <NavbarFromBootsTrap/>
   </div>;
 }
 
