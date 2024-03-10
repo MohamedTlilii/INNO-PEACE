@@ -1,0 +1,25 @@
+/* footer */
+.footer {
+  /* border: 2px solid rgb(46, 210, 35); */
+  background-color: hsl(193, 58%, 51%);
+  /* background-image: url("/public/assets/dddd.jpg");
+  background-repeat: no-repeat;
+  background-position: center; */
+  padding: 40px 0px 50px 0px;
+  height: 70vh;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footerHome {
+  border: 2px solid rgb(46, 210, 35);
+}
+.footerProjects {
+  border: 2px solid rgb(46, 210, 35);
+}
+.footerAbout {
+  border: 2px solid rgb(46, 210, 35);
+}
+.footerContacts {
+  border: 2px solid rgb(46, 210, 35);
+}
