@@ -1,4 +1,4 @@
-const content = [
+const ProjectsData = [
   {
     id: "48c60964-b5cc-5e14-90cc-dc29de769539",
     image: "/assets/gabes.jpg",
@@ -75,4 +75,4 @@ const content = [
   },
 ];
 
-export default content;
+export default ProjectsData;

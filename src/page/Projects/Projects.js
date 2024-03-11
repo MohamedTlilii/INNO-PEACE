@@ -3,7 +3,7 @@ import "./Style.css";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import content from "../../content";
+import content from "../../ProjectsData";
 
 function Projects() {
   return (
@@ -19,7 +19,7 @@ function Projects() {
                 <Card.Text>{project.description1}</Card.Text>
                 <Card.Text>{project.description2}</Card.Text>
                 <Card.Text>{project.description3}</Card.Text>
-                <h5>But:</h5>
+                {/* <h5>But:</h5>
                 <ul>
                   {project.but.map((item, index) => (
                     <li key={index}>{item}</li>
@@ -31,7 +31,7 @@ function Projects() {
                   {project.ajourdhui.map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
-                </ul>
+                </ul> */}
               </Card.Body>
             </Card>
           </Col>
