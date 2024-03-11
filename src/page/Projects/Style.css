@@ -1,5 +1,11 @@
 .projectsSection {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* color: blue; */
   margin: 80px; /* Add margin here */
+}
+.projectsSectionTitle {
+  /* border: 2px solid red; */
+  /* color: blue; */
+  margin: 60px; /* Add margin here */
+  cursor: pointer;
 }

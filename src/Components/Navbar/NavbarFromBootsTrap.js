@@ -33,12 +33,22 @@ function NavbarFromBootstrap() {
             <Nav className="NavbarCollapse">
               <Nav.Link href="#home">Home</Nav.Link>
               <NavDropdown title="Projects" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">1 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">2 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">3 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">4 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">5 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">6 </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.1">
+                  La Bibliothèque Humaine{" "}
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">
+                  Awledna Zen (Awzen){" "}
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">Euromed </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">
+                  Fina Mena{" "}
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">
+                  Generation P
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">
+                  InnoGov Academy
+                </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">7 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="#about">About</Nav.Link>
