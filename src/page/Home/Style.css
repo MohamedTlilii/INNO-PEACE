@@ -1,0 +1,31 @@
+/* hero section */
+.heroSection {
+  /* border: 2px solid red; */
+  /* color: blue; */
+  margin: 80px; /* Add margin here */
+}
+.heroSection h1 {
+  /* border: 2px solid red; */
+  color: black;
+}
+.heroSection p {
+  /* border: 2px solid red; */
+  color: balck;
+}
+
+
+
+
+
+/* projects section */
+.projectsSection {
+  /* border: 2px solid red; */
+  /* color: blue; */
+  margin: 80px; /* Add margin here */
+}
+.projectsSectionTitle {
+  /* border: 2px solid red; */
+  /* color: blue; */
+  margin: 60px; /* Add margin here */
+  cursor: pointer;
+}

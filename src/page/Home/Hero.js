@@ -17,7 +17,7 @@ function Hero() {
         ))}
       </div>
       <div>
-        <img src={HeroData[0].image} alt="" style={{ width: "500px" }} />{" "}
+        <img src={HeroData[0].image} alt="" style={{ width: "500px" }} />
       </div>
     </div>
   );
