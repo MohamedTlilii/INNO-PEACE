@@ -1,3 +1,13 @@
+
+.nav-cont  {
+  /* border: 2px solid rgb(251, 255, 0) !important; */
+ color: black!important;
+}
+#basic-nav-dropdown {
+  color: black!important;
+
+}
+
 .NavbarFromBootsTrap {
   /* border: 2px solid red !important; */
   /* margin-top: 30px; */
@@ -19,9 +29,14 @@
   font-weight: 600;
   font-size: 25px;
   /* color: hsl(192, 58%, 50%) !important; */
+  
+}
+.link-hedaer {
+  text-decoration: none!important;
+  color: black!important;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 600px) {
   .nav-cont {
     /* border: 2px solid rgb(251, 255, 0) !important; */
     position: relative;

@@ -3,6 +3,7 @@ import "./Style.css";
 import { CiFacebook, CiInstagram, CiLinkedin, CiPhone } from "react-icons/ci";
 import { MdOutlineEmail } from "react-icons/md";
 import { FiMapPin } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -25,24 +26,55 @@ function Footer() {
 
       <div className="footerProjects">
         <h3>Projects</h3>
-        <p>La Bibliothèque Humaine</p>
-        <p>Awledna Zen (Awzen)</p>
-        <p>Euromed</p>
-        <p>Fina Mena</p>
-        <p>Generation P</p>
-        <p>InnoGov Academy</p>
-        {/* <p>7</p> */}
+        <Link className="link-footer" to="/labibliothequehumaine">
+          <p>La Bibliothèque Humaine</p>
+        </Link>
+        <Link className="link-footer" to="/awlednaZen">
+          <p>Awledna Zen (Awzen)</p>
+        </Link>
+        <Link className="link-footer" to="/euromed">
+          <p>Euromed</p>
+        </Link>
+        <Link className="link-footer" to="/finamena">
+          <p>Fina Mena</p>
+        </Link>
+        <Link className="link-footer" to="/generationp">
+          <p>Generation P</p>
+        </Link>
+        <Link className="link-footer" to="/innoGovacademy">
+          <p>InnoGov Academy</p>
+        </Link>
+        {/* 
+        <Link to="/7">
+        <p>7</p> 
+                </Link>
+
+        */}
       </div>
       <div className="footerAbout">
         <h3>About</h3>
+        <Link className="link-footer" to="/about">
         <p>INNO-PEACE</p>
-        <a href="https://www.facebook.com/Innopeace.Tunisia" target="_blank" rel="noopener noreferrer">
+        </Link>
+        <a
+          href="https://www.facebook.com/Innopeace.Tunisia"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <CiFacebook style={{ fontSize: "30px" }} />
         </a>
-        <a href="https://www.instagram.com/inno.peace" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.instagram.com/inno.peace"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <CiInstagram style={{ fontSize: "30px" }} />
         </a>
-        <a href="https://www.linkedin.com/company/innopeace/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.linkedin.com/company/innopeace/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <CiLinkedin style={{ fontSize: "30px" }} />
         </a>
       </div>
@@ -59,7 +91,7 @@ function Footer() {
           </p>
         </div>
         <div className="contactsSocial">
-          <CiPhone  />
+          <CiPhone />
 
           <p> +216 24 313 242</p>
         </div>

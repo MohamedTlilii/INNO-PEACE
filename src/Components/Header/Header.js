@@ -35,45 +35,49 @@ function Header() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="NavbarCollapse">
               <Nav.Link>
-                <Link to="/">Home</Link>
+                <Link className="link-hedaer" to="/">
+                  Home
+                </Link>
               </Nav.Link>
 
-              <NavDropdown title="Projects" id="basic-nav-dropdown">
-                <NavDropdown.Item>
-                  <Link to="/labibliothequehumaine">
+              <NavDropdown  title="Projects" id="basic-nav-dropdown">
+                <NavDropdown.Item >
+                  <Link className="link-hedaer"  to="/labibliothequehumaine">
                     La Bibliothèque Humaine
                   </Link>
                 </NavDropdown.Item>
 
                 <NavDropdown.Item>
-                  <Link to="/awlednaZen">Awledna Zen (Awzen)</Link>
+                  <Link className="link-hedaer" to="/awlednaZen">Awledna Zen (Awzen)</Link>
                 </NavDropdown.Item>
 
                 <NavDropdown.Item>
-                  <Link to="/euromed">Euromed</Link>
+                  <Link className="link-hedaer" to="/euromed">Euromed</Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link to="/finamena">Fina Mena</Link>
+                  <Link className="link-hedaer" to="/finamena">Fina Mena</Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link to="/generationp">Generation P</Link>
+                  <Link className="link-hedaer" to="/generationp">Generation P</Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link to="/innoGovacademy">InnoGov Academy</Link>
+                  <Link className="link-hedaer" to="/innoGovacademy">InnoGov Academy</Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item>7 </NavDropdown.Item>
+                {/* <NavDropdown.Item>
+                  <Link className="link-hedaer" to="/7">7</Link>
+                </NavDropdown.Item> */}
               </NavDropdown>
 
               <Nav.Link>
-                <Link to="/about">About </Link>
+                <Link className="link-hedaer" to="/about">About </Link>
               </Nav.Link>
 
               <NavDropdown title="Contacts" id="basic-nav-dropdown">
                 <NavDropdown.Item>
-                  <Link to="/workwithus">Work with us</Link>
+                  <Link className="link-hedaer" to="/workwithus">Work with us</Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link to="/Contacts">Contact us</Link>
+                  <Link className="link-hedaer" to="/Contacts">Contact us</Link>
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
