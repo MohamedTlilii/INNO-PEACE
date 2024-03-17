@@ -1,182 +1,21 @@
-.nav-cont {
-  /* border: 2px solid rgb(251, 255, 0) !important; */
-  color: black !important;
-}
-#basic-nav-dropdown {
-  color: black !important;
+.bg-body-tertiary {
+  /* border: 2px solid rgb(217, 96, 9); */
 }
 
-.NavbarFromBootsTrap {
-  /* border: 2px solid red !important; */
-  /* margin-top: 30px; */
-  /* background-image: url("/public/assets/dddd.jpg");
-  background-repeat: no-repeat;
-  background-position: center; */
-  background-color: hsl(192, 20%, 95%);
-  /* width: 1750px !important; */
+#navbarsection {
+  /* border: 2px solid rgb(9, 217, 106)!important; */
+  /* align-items: center; */
+  gap: 20px;
+  display: flex;
+  /* margin-left: 800px; */
+
 }
-#logo {
-  /* border: 2px solid rgb(14, 171, 189) !important; */
+.logo {
+  /* border: 2px solid rgb(14, 171, 189); */
   width: 400px;
   height: 350px;
-}
-.NavbarCollapse {
-  /* border: 2px solid rgb(218, 28, 199) !important; */
-
-  position: relative;
-  top: 155px;
-  gap: 35px;
-  font-weight: 600;
-  font-size: 25px;
-  margin-top: 18px;
-  /* color: hsl(192, 58%, 50%) !important; */
 }
 .link-hedaer {
   text-decoration: none !important;
   color: black !important;
-}
-
-@media only screen and (max-width: 1168px) {
-  .nav-cont {
-    /* border: 52px solid rgb(251, 255, 0) !important; */
-  }
-  .NavbarCollapse {
-    /* border: 2px solid rgb(39, 22, 201) !important; */
-    font-size: 20px;
-  }
-  #logo {
-    /* border: 2px solid rgb(14, 171, 189) !important; */
-    /* width: 400px;
-    height: 350px; */
-  }
-}
-@media only screen and (max-width: 1059px) {
-  .nav-cont {
-    /* border: 52px solid rgb(251, 255, 0) !important; */
-  }
-  .NavbarCollapse {
-    /* border: 2px solid rgb(39, 22, 201) !important; */
-    font-size: 18px;
-  }
-  #logo {
-    /* border: 2px solid rgb(14, 171, 189) !important; */
-    /* width: 400px;
-    height: 350px; */
-  }
-}
-@media only screen and (max-width: 1020px) {
-  .nav-cont {
-    /* border: 52px solid rgb(251, 255, 0) !important; */
-  }
-  .NavbarCollapse {
-    /* border: 2px solid rgb(39, 22, 201) !important; */
-    font-size: 17px;
-  }
-  #logo {
-    /* border: 2px solid rgb(14, 171, 189) !important; */
-    /* width: 400px;
-    height: 350px; */
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  .nav-cont {
-    /* border: 2px solid rgb(251, 255, 0) !important; */
-    position: relative;
-    bottom: 115px;
-    /* left: 150px; */
-    right: 100px;
-  }
-  #basic-navbar-nav {
-    /* border: 2px solid rgb(39, 22, 201) !important; */
-    font-size: 17px;
-    position: relative;
-    /* right: 600px; */
-    bottom: 170px !important;
-    /* background-color: black; */
-  }
-  .NavbarCollapse {
-    /* border: 2px solid rgb(39, 22, 201) !important; */
-    background-color: rgb(255, 255, 255);
-  }
-  #logo {
-    /* border: 2px solid red !important; */
-    height: 400px;
-    position: relative;
-    right: 140px;
-    bottom: 25px;
-  }
-}
-@media only screen and (max-width: 895px) {
-  .nav-cont {
-    /* border: 2px solid rgb(251, 255, 0) !important; */
-    position: relative;
-    right: 80px;
-  }
-  #basic-navbar-nav {
-    /* border: 2px solid rgb(39, 22, 201) !important; */
-    font-size: 17px;
-    position: relative;
-  }
-  .NavbarCollapse {
-    /* border: 2px solid rgb(39, 22, 201) !important; */
-    background-color: rgb(255, 255, 255);
-  }
-  #logo {
-    /* border: 2px solid red !important; */
-    height: 400px;
-    position: relative;
-    right: 110px;
-    bottom: 25px;
-  }
-}
-@media only screen and (max-width: 855px) {
-  .nav-cont {
-    /* border: 2px solid rgb(251, 255, 0) !important; */
-    position: relative;
-    right: 60px;
-  }
-  #basic-navbar-nav {
-    /* border: 2px solid rgb(39, 22, 201) !important; */
-    font-size: 17px;
-    position: relative;
-  }
-  .NavbarCollapse {
-    /* border: 2px solid rgb(39, 22, 201) !important; */
-    background-color: rgb(255, 255, 255);
-  }
-  #logo {
-    /* border: 2px solid red !important; */
-    height: 400px;
-    position: relative;
-    right: 80px;
-    bottom: 25px;
-  }
-}
-@media only screen and (max-width: 813px) {
-  .nav-cont {
-    /* border: 2px solid rgb(251, 255, 0) !important; */
-    position: relative;
-    right: 20px;
-  }
-  #basic-navbar-nav {
-    /* border: 2px solid rgb(39, 22, 201) !important; */
-    font-size: 17px;
-    position: relative;
-  }
-  .NavbarCollapse {
-    /* border: 2px solid rgb(39, 22, 201) !important; */
-    background-color: rgb(255, 255, 255);
-  }
-  #logo {
-    /* border: 2px solid red !important; */
-    height: 400px;
-    position: relative;
-    right: 20px;
-    bottom: 25px;
-  }
-}
-@media only screen and (max-width: 765px) {
-
-
 }
