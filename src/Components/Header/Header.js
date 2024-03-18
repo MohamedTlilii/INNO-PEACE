@@ -82,11 +82,11 @@ function Header() {
             </Nav.Link>
 
             <NavDropdown title="Contacts" id="basic-nav-dropdown">
-              <NavDropdown.Item>
+              {/* <NavDropdown.Item>
                 <Link className="link-hedaer" to="/workwithus">
                   Work with us
                 </Link>
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
               <NavDropdown.Item>
                 <Link className="link-hedaer" to="/Contacts">
                   Contact us

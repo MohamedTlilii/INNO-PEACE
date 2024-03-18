@@ -9,7 +9,7 @@ import FinaMena from "./page/Projects/FinaMena";
 import GenerationP from "./page/Projects/GenerationP";
 import InnoGovacademy from "./page/Projects/InnoGovacademy";
 import About from "./page/About/About";
-import WorkWithUs from "./page/Contacts/WorkWithUs";
+// import WorkWithUs from "./page/Contacts/WorkWithUs";
 import Contacts from "./page/Contacts/Contacts";
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
         {/* <Route path="7" element={<7 />} /> */}
 
         <Route path="about" element={<About />} />
-        <Route path="workwithus" element={<WorkWithUs />} />
+        {/* <Route path="workwithus" element={<WorkWithUs />} /> */}
         <Route path="contacts" element={<Contacts />} />
       </Route>
     </Routes>
